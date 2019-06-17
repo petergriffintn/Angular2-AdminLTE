@@ -24,7 +24,7 @@ export class StarterComponent implements OnInit, OnDestroy, AfterViewInit {
   }
 
   ngOnDestroy() {
-    // remove the the body classes
+    // remove the body classes
     this.body.classList.remove('sidebar-mini');
   }
 
